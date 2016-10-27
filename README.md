@@ -30,8 +30,8 @@ You can, but don't have to use below layout:
 
 ### Instructions
 1. Fork this repository. You can follow instructions in the [article](https://github.com/Code-Your-Future/guides/blob/master/forking-and-cloning/README.md) and let us know in #class channel if you have any troubles.
-- Build the blog
-- When you are finished, submit Pull Request
+- Write code for the blog. Use index.html, style.css, pictures, or other assets.
+- When you are finished, submit Pull Request.
 
 
 ## Get ready for JavaScript
