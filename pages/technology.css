@@ -93,6 +93,7 @@ article {
 }
 p {
 	text-indent: 50px;
+	padding: 10px;
 }
 p::first-letter {
     font-size: 2em;
