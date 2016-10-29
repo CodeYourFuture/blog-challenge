@@ -19,14 +19,14 @@ body {
 	margin: 0px;
 }
 .nav-home {
-	width: 34%;
+	width: 33%;
 	/*border: 1px solid red;*/
 }
 h1 {
 	
 	margin: auto;
 	font-family: 'Pacifico', cursive;
-	font-size: 2.3em;
+	font-size: 2.4em;
 	padding: 20px;
 	text-align: center;
 }
