@@ -1,0 +1,254 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url("http://www.flashmint.com/free/images/twbg4-700.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+body {
+ 	background-color: linen;
+ 	font-family: Sans-Serif;
+	font-size: 85%;
+	line-height: 1.5;
+	text-align: left;
+}
+
+#container {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.heading {
+	background-color: lightgreen;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+	
+.heading h1 {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+	text-align: center; 
+}
+
+.heading nav {
+ background-color: lightgreen;
+ height: 40px;
+ border-radius: 5px;
+ /*border: 1px solid lightgreen;*/
+ overflow: auto;
+ width: 100%;
+ float: left;
+ padding: 0px;
+ margin: 0px; 
+}
+	
+.heading nav ul {
+	/*float: left;*/  
+	list-style-type: none;
+	margin: 0 auto;
+}
+		
+.heading nav ul li {
+	float: left; 
+	display: inline;
+
+}
+			
+/*#header ul#navbar li:first-child {
+	margin: 0;
+}*/
+				
+.heading nav ul li a {
+	color: grey;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+	border-radius: 5px;
+}
+					
+.heading ul li a:hover {
+	background-color: #111;
+	text-shadow: none;
+}
+					
+.heading h2 {
+	margin: 90px 0 0 0; 
+	/*min-width: 500px;*/
+	clear: both; 
+	text-align: center;
+	padding: 0 0 30px 0;
+	font: 24px Georgia; 
+	letter-spacing: 4px; 
+	color: #808080; 
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.main {
+	border-radius: 5px;
+	line-height: 25px;
+}
+
+section {
+	width: 70%;
+	float: left;
+}
+
+.section1 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+
+}
+
+.section2 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%; 
+	margin-top: 2%;
+	
+}
+
+.sidebar1 {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 2% 0% 2% 3%;
+	padding: 2% 3%;
+}
+
+.sidebar2 {
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.mainfooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: grey;
+	margin: 2% 0 2% 0;
+}
+
+.mainfooter {
+	width: 92%;
+	margin: 2% auto;
+}
+
+section>article>content>p::first-letter {
+ font-size: 30px;
+}
+
+p:nth-child(3n) {
+	color: green;
+}
+
+@ media only screen and (min-width: 150px) and (max-width: 500px) {
+
+	#container {
+		width: 90%;
+		font-size: 90%;
+}
+
+	.heading {
+	width: 100%;
+}
+
+	.heading h1 {
+	width: 30%;
+	height: auto;
+	margin: 2% 0; 
+}
+
+.heading nav {
+ height: 160px;
+}
+	
+.heading nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+		
+.heading nav ul li {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+					
+.heading ul li a:hover {
+	background-color: #111;
+	text-shadow: none;
+}
+					
+.heading h2 {
+	margin: 90px 0 0 0; 
+	
+}
+
+.main {
+	line-height: 35px;
+}
+
+section {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.section1 {
+	margin-top: 3%;
+
+}
+
+.section2 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%; 
+	margin-top: 2%;
+	
+}
+
+.sidebar1 {
+	width: 94%;
+	margin: 2% 0% 2% 0%;
+	padding: 2% 3%;
+}
+
+.sidebar2 {
+	width: 94%;
+	margin: 2% 0% 2% 0%;
+	padding: 2% 3%;
+}
+
+.mainfooter {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: grey;
+	margin: 2% 0 2% 0; 
+}
+
+.mainfooter {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+
+}
+
+}
