@@ -8,7 +8,7 @@ body {
 }
 .main {
 	width: 90%;
-	margin: auto;	
+	margin: auto;
 }
 .nav-container {
 	/*border: 1px solid red;*/
@@ -19,7 +19,7 @@ body {
 	margin: 0px;
 }
 .nav-home {
-	width: 32%;
+	width: 33%;
 	/*border: 1px solid red;*/
 }
 h1 {
@@ -70,65 +70,57 @@ header, footer {
 	width: 100%;
 }
 section {
-	/*border: 5px solid yellow;*/
-	width: 75%;
-	/*padding: 25px;
-	margin: auto;*/
 	
+	/*border: 5px solid yellow;*/
+	width: 70%;
+	padding: 25px;
+	/*margin: auto;*/
 }
 img {
 	display: block;
 	height: auto;
 	width: 100%;
 	margin: auto;
-
 }
 article {
-	/*border: 1px solid green;*/
-	width: 46%;	
-	float: left;
-	margin: 10px;
+	border: 3px double #cc0000;
+	width: 100%;	
+	padding: 25px;
+	margin: 5% auto;
 	height: auto;
-	background-color: #ffffe6;
-	
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.img-container {
-	width: 100%;
-    height: auto;
-}
-.img-container>a>img:hover {
-	opacity: 0.7;
-	transition-duration: 0s;
-	transform: scale(1.02,1.02);
-	overflow: hidden;
-}
-.img-description {
-	padding: 10px;
-	text-align: center;
 	font-size: 1.5em;
-	height: auto;
+	text-transform: lowercase;
+}
+p {
+	text-indent: 50px;
+	padding: 10px;
+}
+p::first-letter {
+    font-size: 2em;
+    font-size: xx-large;
+    text-transform: uppercase;
+    
+}
+p:nth-of-type(even) {
+	background-color: lightgrey;
+	opacity: 0.8;
 }
 .content {
 	position: relative;
 	width: 100%
-	height auto;
+	height: auto;
 }
 .hr-visiblity {
 	display: none;
 }
 aside {
-	width: 24%;
+	width: 30%;
 	position: absolute;
 	padding: 20px;
+	margin-top: 20px;
 	border: 1px solid black;
 	right: 0px;
-	top: 0px;
-	margin-top: 20px;
+	top: 40px;
 }
 .img-profile {
 	border-radius: 50%;
@@ -159,12 +151,13 @@ hr {
     }
     section {
     	width: 100%;
+    	padding: 0px;
     }
     article {
         width: 100%;
-        display: block;
+        padding: 0px;
         margin: 10px auto;
-        float: none;
+        
     }
     aside {
     	position: static;
@@ -178,6 +171,7 @@ hr {
 	.nav-li {
 	display: block;
 	padding: 10px;
+	
 	text-align: left;
 	}
 	.nav-ul {
